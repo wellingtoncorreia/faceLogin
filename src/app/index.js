@@ -15,13 +15,13 @@ export default function App() {
       <InputTexto  dica="Digite seu nome"/>
       <InputTexto  dica="Digite sua senha" seguranca={true}/>
 
-      <Botao btn="Entrar" cor='#1577F2' src='home' />
+      <Botao btn="Entrar" cor='#1577F2' src='home' cortexto='#fff' tm='35%' />
       <View style={styles.cont}>
         <View style={styles.line}/>
         <Text style={styles.text}>ou</Text>
         <View style={styles.line}/>
       </View>
-      <Botao btn="Criar uma nova conta" src='excluido' />
+      <Botao btn="Criar uma nova conta" src='excluido' cortexto='#000' tm='10%' />
     </View>
   );
 }
